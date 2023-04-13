@@ -1,0 +1,298 @@
+
+
+.custom-bg{
+    background-color: rgb(234, 238, 248);
+}
+.custom-font{
+        font-size: 18px;
+}
+.custom-h1{
+        font-size: 56px;
+}
+/* styling of Navbar */
+.nav-links ul li::after {
+    content: '';
+    width: 0;
+    height: 2px;
+    background: rgb(187, 193, 237);
+    display: block;
+    margin: auto;
+    transition: 0.5s ease;
+}
+
+.nav-links ul li:hover::after {
+    width: 100%;
+}
+.margin-top{
+    margin-top: 185px;
+}
+.img-mt{
+        margin-top: 95px;
+}
+
+/* End of styling navbar */
+
+/* Animation of text starts here */
+
+.tracking-in-contract-bck {
+	-webkit-animation: tracking-in-contract-bck 1s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+	        animation: tracking-in-contract-bck 1s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+            animation-delay: 1s;
+            transition: 1.5s ease;
+}
+
+@-webkit-keyframes tracking-in-contract-bck {
+    0% {
+      letter-spacing: 1em;
+      -webkit-transform: translateZ(400px);
+              transform: translateZ(400px);
+      opacity: 0;
+    }
+    40% {
+      opacity: 0.6;
+    }
+    100% {
+      -webkit-transform: translateZ(0);
+              transform: translateZ(0);
+      opacity: 1;
+    }
+  }
+  @keyframes tracking-in-contract-bck {
+    0% {
+      letter-spacing: 1em;
+      -webkit-transform: translateZ(400px);
+              transform: translateZ(400px);
+      opacity: 0;
+    }
+    40% {
+      opacity: 0.6;
+    }
+    100% {
+      -webkit-transform: translateZ(0);
+              transform: translateZ(0);
+      opacity: 1;
+    }
+  }
+  
+
+/* Animation of text ends here */
+
+/* Animation of education images starts here  */
+.heartbeat {
+        -webkit-animation: heartbeat 1.5s ease-in-out infinite both;
+        animation: heartbeat 1.5s ease-in-out infinite both;
+}
+
+@-webkit-keyframes heartbeat {
+    from {
+      -webkit-transform: scale(1);
+              transform: scale(1);
+      -webkit-transform-origin: center center;
+              transform-origin: center center;
+      -webkit-animation-timing-function: ease-out;
+              animation-timing-function: ease-out;
+    }
+    10% {
+      -webkit-transform: scale(0.91);
+              transform: scale(0.91);
+      -webkit-animation-timing-function: ease-in;
+              animation-timing-function: ease-in;
+    }
+    17% {
+      -webkit-transform: scale(0.98);
+              transform: scale(0.98);
+      -webkit-animation-timing-function: ease-out;
+              animation-timing-function: ease-out;
+    }
+    33% {
+      -webkit-transform: scale(0.87);
+              transform: scale(0.87);
+      -webkit-animation-timing-function: ease-in;
+              animation-timing-function: ease-in;
+    }
+    45% {
+      -webkit-transform: scale(1);
+              transform: scale(1);
+      -webkit-animation-timing-function: ease-out;
+      animation-timing-function: ease-out;
+    }
+  }
+  @keyframes heartbeat {
+          from {
+      -webkit-transform: scale(1);
+              transform: scale(1);
+              -webkit-transform-origin: center center;
+              transform-origin: center center;
+      -webkit-animation-timing-function: ease-out;
+              animation-timing-function: ease-out;
+    }
+    10% {
+      -webkit-transform: scale(0.91);
+              transform: scale(0.91);
+      -webkit-animation-timing-function: ease-in;
+              animation-timing-function: ease-in;
+    }
+    17% {
+      -webkit-transform: scale(0.98);
+              transform: scale(0.98);
+      -webkit-animation-timing-function: ease-out;
+              animation-timing-function: ease-out;
+    }
+    33% {
+      -webkit-transform: scale(0.87);
+              transform: scale(0.87);
+      -webkit-animation-timing-function: ease-in;
+              animation-timing-function: ease-in;
+    }
+    45% {
+      -webkit-transform: scale(1);
+              transform: scale(1);
+      -webkit-animation-timing-function: ease-out;
+              animation-timing-function: ease-out;
+        }
+  }
+  /* Animation of education images ends here  */
+
+  /* social icons section code  */
+  
+  .social-icons {
+          display: flex;
+        
+}
+.social-icons li {
+        margin: 0 10px;
+}
+.social-icons li a {
+        font-size: 30px;
+        color: #333;
+        transition: all 0.3s ease-in-out;
+}
+.social-icons li a:hover {
+        color: #007bff;
+        transform: translateY(-3px);
+}
+
+  /* social icons section code ends here  */
+
+  /* button animation starts here */
+
+  .bounce-top {
+	-webkit-animation: bounce-top 0.9s both;
+	        animation: bounce-top 0.9s both;
+}@-webkit-keyframes bounce-top {
+        0% {
+          -webkit-transform: translateY(-45px);
+                  transform: translateY(-45px);
+          -webkit-animation-timing-function: ease-in;
+                  animation-timing-function: ease-in;
+          opacity: 1;
+        }
+        24% {
+          opacity: 1;
+        }
+        40% {
+          -webkit-transform: translateY(-24px);
+                  transform: translateY(-24px);
+          -webkit-animation-timing-function: ease-in;
+                  animation-timing-function: ease-in;
+        }
+        65% {
+          -webkit-transform: translateY(-12px);
+                  transform: translateY(-12px);
+          -webkit-animation-timing-function: ease-in;
+                  animation-timing-function: ease-in;
+        }
+        82% {
+          -webkit-transform: translateY(-6px);
+                  transform: translateY(-6px);
+          -webkit-animation-timing-function: ease-in;
+                  animation-timing-function: ease-in;
+        }
+        93% {
+          -webkit-transform: translateY(-4px);
+                  transform: translateY(-4px);
+          -webkit-animation-timing-function: ease-in;
+                  animation-timing-function: ease-in;
+        }
+        25%,
+        55%,
+        75%,
+        87% {
+          -webkit-transform: translateY(0px);
+                  transform: translateY(0px);
+          -webkit-animation-timing-function: ease-out;
+                  animation-timing-function: ease-out;
+        }
+        100% {
+          -webkit-transform: translateY(0px);
+                  transform: translateY(0px);
+          -webkit-animation-timing-function: ease-out;
+                  animation-timing-function: ease-out;
+          opacity: 1;
+        }
+      }
+      @keyframes bounce-top {
+        0% {
+          -webkit-transform: translateY(-45px);
+                  transform: translateY(-45px);
+          -webkit-animation-timing-function: ease-in;
+                  animation-timing-function: ease-in;
+          opacity: 1;
+        }
+        24% {
+          opacity: 1;
+        }
+        40% {
+          -webkit-transform: translateY(-24px);
+                  transform: translateY(-24px);
+          -webkit-animation-timing-function: ease-in;
+                  animation-timing-function: ease-in;
+        }
+        65% {
+          -webkit-transform: translateY(-12px);
+                  transform: translateY(-12px);
+          -webkit-animation-timing-function: ease-in;
+                  animation-timing-function: ease-in;
+        }
+        82% {
+          -webkit-transform: translateY(-6px);
+                  transform: translateY(-6px);
+          -webkit-animation-timing-function: ease-in;
+                  animation-timing-function: ease-in;
+        }
+        93% {
+          -webkit-transform: translateY(-4px);
+                  transform: translateY(-4px);
+          -webkit-animation-timing-function: ease-in;
+                  animation-timing-function: ease-in;
+        }
+        25%,
+        55%,
+        75%,
+        87% {
+          -webkit-transform: translateY(0px);
+                  transform: translateY(0px);
+          -webkit-animation-timing-function: ease-out;
+                  animation-timing-function: ease-out;
+        }
+        100% {
+          -webkit-transform: translateY(0px);
+                  transform: translateY(0px);
+          -webkit-animation-timing-function: ease-out;
+                  animation-timing-function: ease-out;
+          opacity: 1;
+        }
+      }
+      
+
+  /* button animation ends here   */
+  .grow-img{
+        transition: 1s ease;
+        }
+        
+        .grow-img:hover{
+        -webkit-transform: scale(1.2);
+        -ms-transform: scale(1.2);
+        transform: scale(1.2);
+        transition: 1s ease;
+        }
